@@ -16,13 +16,11 @@ It does not rely on CDP or browser automation for the delivered workflow.
 ## Stack
 
 - Python 3
-- Node.js
 - `curl_cffi`
 
 ## Files
 
-- `main.py`: request scheduler, inbox polling, message fetch, `.eml` parsing
-- `generate_params.js`: payload builders and HTML parsers
+- `main.py`: request scheduler, inbox polling, message fetch, HTML parsing, `.eml` parsing
 - `reverse-records/请求链路.md`: reverse notes and validated request chain
 
 ## Install
@@ -30,8 +28,6 @@ It does not rely on CDP or browser automation for the delivered workflow.
 ```bash
 pip install curl_cffi
 ```
-
-Node.js is only used for the local helper script. No npm packages are required.
 
 ## Usage
 

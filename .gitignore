@@ -3,7 +3,6 @@ __pycache__/
 .venv/
 venv/
 
-.chrome-jsr/
 page.html
 page-*.png
 *.log
